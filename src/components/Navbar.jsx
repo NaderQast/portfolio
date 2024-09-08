@@ -1,9 +1,8 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { FaLinkedinIn} from "react-icons/fa";
-import { FaTwitterSquare} from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedinIn} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-
+import { Links } from "../constants/index";
 
 const Navbar = () => {
   return (
@@ -13,9 +12,9 @@ const Navbar = () => {
       </div>
 
       <div className="flex m-8 gap-4 items-center justify-between py-6 text-4xl text-gray-300">
-        <FaGithub />
-        <FaLinkedinIn />
-        <FaTwitterSquare />
+        <a href={Links.github} ><FaGithub /></a>
+        <a href={Links.linkedin} target="_blank"><FaLinkedinIn /></a>
+        <a href={Links.facebook} target="_blank" ><FaFacebookSquare /></a>
       </div>
     </nav>
   );
