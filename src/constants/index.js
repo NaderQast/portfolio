@@ -55,7 +55,7 @@ export const PROJECTS = [
     description:
       "A single page landing website to show the services for an Economic Company",
     technologies: ["HTML", "Tailwind.CSS", "React",],
-    link:""
+    link:"https://finance-data-react.vercel.app/"
   },
 
 ];
