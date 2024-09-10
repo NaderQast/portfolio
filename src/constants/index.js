@@ -38,7 +38,7 @@ export const PROJECTS = [
     description:
       "Single Page e-commerce website with nice appearance and dark mode Feature ",
     technologies: ["HTML", "Tailwind.CSS", "React.JS", ],
-    link: "https://sa3a-store-doyc-egqmxitgn-naders-projects-9d839a27.vercel.app/",
+    link: "https://sa3a-store-51x9.vercel.app/",
   },
   {
     title: "React-Blog",
