@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/P1.png";
 import project6 from "../assets/projects/p3.png";
 import project7 from "../assets/projects/p2.png";
+import project8 from "../assets/projects/p4.png";
 
 export const HERO_CONTENT = `I am Nader a motivated Engineer passionate for tech ,seeking for imporving my skills , particularly in WEB development . I enjoy learning and working with others , and I am excited to see where my skills and passion for building will take me in future. `;
 ;
@@ -56,6 +57,14 @@ export const PROJECTS = [
       "A single page landing website to show the services for an Economic Company",
     technologies: ["HTML", "Tailwind.CSS", "React",],
     link:"https://finance-data-react.vercel.app/"
+  },
+  {
+    title: "Crypto-Souq",
+    image: project8,
+    description:
+      "A Website to show the Prices of the Crypto currincies with 4 different currencies including USD,EUR,SAR and AED you can also see each currency performance details with the help of Google chart data , also tou can search for any crypto currency and match results with the current typing ",
+    technologies: ["HTML", "CSS", "React",],
+    link:"https://crypto-souq.vercel.app/"
   },
 
 ];
