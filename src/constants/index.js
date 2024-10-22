@@ -62,7 +62,7 @@ export const PROJECTS = [
     title: "Crypto-Souq",
     image: project8,
     description:
-      "A Website to show the Prices of the Crypto currincies with 4 different currencies including USD,EUR,SAR and AED you can also see each currency performance details with the help of Google chart data , also tou can search for any crypto currency and match results with the current typing ",
+      "A Website to show the Prices of the Crypto currincies with 4 different currencies including USD,EUR,SAR and AED you can also see each currency performance details with the help of Google chart data , also you can search for any crypto currency and match results with the current typing ",
     technologies: ["HTML", "CSS", "React",],
     link:"https://crypto-souq.vercel.app/"
   },
