@@ -7,7 +7,7 @@ import project6 from "../assets/projects/p3.png";
 import project7 from "../assets/projects/p2.png";
 import project8 from "../assets/projects/p4.png";
 
-export const HERO_CONTENT = `I am Nader a motivated Engineer passionate for tech ,seeking for imporving my skills , particularly in WEB development . I enjoy learning and working with others , and I am excited to see where my skills and passion for building will take me in future. `;
+export const HERO_CONTENT = `A motivated Computer Engineer passionate for tech ,seeking for imporving my skills , particularly in WEB development . I enjoy learning and working with others , and I am excited to see where my skills and passion for building will take me in future. `;
 ;
 
 export const ABOUT_TEXT = `I am a dedicated with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. I am also passionate about AI and Web 3. I am always looking for ways to use these technologies to create innovative and impactful applications.`;
@@ -29,17 +29,18 @@ export const Links =
     github: "https://github.com/NaderQast/",
     linkedin: "https://www.linkedin.com/in/nader-al-quwatli/",
     facebook: "https://www.facebook.com/Nader.Qas/",
+    CV: "https://drive.google.com/file/d/1mBSxJRTSPhOA8L38T6UFauyH5g4PtGu2/view?usp=sharing", 
   }
 
 
 export const PROJECTS = [
   {
-    title: "Sa3a-Store",
-    image: project5,
+    title: "Crypto-Souq",
+    image: project8,
     description:
-      "Single Page e-commerce website with nice appearance and dark mode Feature ",
-    technologies: ["HTML", "Tailwind.CSS", "React.JS", ],
-    link: "https://sa3a-store-51x9.vercel.app/",
+      "A Website to show the Prices of the Crypto currincies with 4 different currencies including USD,EUR,SAR and AED you can also see each currency performance details with the help of Google chart data , also you can search for any crypto currency and match results with the current typing ",
+    technologies: ["HTML", "CSS", "React",],
+    link:"https://crypto-souq.vercel.app/"
   },
   {
     title: "React-Blog",
@@ -49,6 +50,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React.JS", "Firebase","TypeScript"],
     link:"https://react-social-bb389.web.app/",
   },
+
+  {
+    title: "Sa3a-Store",
+    image: project5,
+    description:
+      "Single Page e-commerce website with nice appearance and dark mode Feature ",
+    technologies: ["HTML", "Tailwind.CSS", "React.JS", ],
+    link: "https://sa3a-store-51x9.vercel.app/",
+  },
+
   
   {
     title: "Finance-Data-Page",
@@ -58,14 +69,7 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind.CSS", "React",],
     link:"https://finance-data-react.vercel.app/"
   },
-  {
-    title: "Crypto-Souq",
-    image: project8,
-    description:
-      "A Website to show the Prices of the Crypto currincies with 4 different currencies including USD,EUR,SAR and AED you can also see each currency performance details with the help of Google chart data , also you can search for any crypto currency and match results with the current typing ",
-    technologies: ["HTML", "CSS", "React",],
-    link:"https://crypto-souq.vercel.app/"
-  },
+
 
 ];
 

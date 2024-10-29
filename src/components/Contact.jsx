@@ -1,5 +1,5 @@
 import React from 'react'
-import { CONTACT } from '../constants'
+import { CONTACT, Links } from '../constants'
 
 const Contact = () => {
   return (
@@ -10,7 +10,8 @@ const Contact = () => {
         <div className="text-center tracking-tighter">
             <p className='my-4'>{CONTACT.address}</p>
             <p className='my-4'>{CONTACT.phoneNo}</p>
-            <a href='https://drive.google.com/file/d/1-B9GXHsRpf0Zg-jFcO7maNa9YIVcEkh8/view?usp=sharing' className='border-b '>{CONTACT.email}</a>
+            <p className='text-xl'>{CONTACT.email}</p>
+            <a className='btn btn-outline btn-primary text-center my-6 ' href={Links.CV} target='_blank'>Download My CV</a>
         </div>
         
     </div>
