@@ -11,7 +11,7 @@ const Contact = () => {
             <p className='my-4'>{CONTACT.address}</p>
             <p className='my-4'>{CONTACT.phoneNo}</p>
             <p className='text-xl'>{CONTACT.email}</p>
-            <a className='btn btn-outline btn-primary text-center my-6 ' href={Links.CV} target='_blank'>Download My CV</a>
+            <a className='btn btn-outline btn-primary text-center my-6 ' href={Links.CV} target='_blank'>View My Resume</a>
         </div>
         
     </div>
