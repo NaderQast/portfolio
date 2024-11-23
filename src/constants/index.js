@@ -29,7 +29,7 @@ export const Links =
     github: "https://github.com/NaderQast/",
     linkedin: "https://www.linkedin.com/in/nader-al-quwatli/",
     facebook: "https://www.facebook.com/Nader.Qas/",
-    CV: "https://drive.google.com/file/d/1mBSxJRTSPhOA8L38T6UFauyH5g4PtGu2/view?usp=sharing", 
+    CV: "https://drive.google.com/file/d/1sBOo7wR43uKYsWYwuRasOkOAF7YTcwrt/view?usp=sharing", 
   }
 
 
