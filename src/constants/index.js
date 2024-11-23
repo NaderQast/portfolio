@@ -6,6 +6,8 @@ import project5 from "../assets/projects/P1.png";
 import project6 from "../assets/projects/p3.png";
 import project7 from "../assets/projects/p2.png";
 import project8 from "../assets/projects/p4.png";
+import project9 from "../assets/projects/p5.png";
+
 
 export const HERO_CONTENT = `A motivated Computer Engineer passionate for tech ,seeking for imporving my skills , particularly in WEB development . I enjoy learning and working with others , and I am excited to see where my skills and passion for building will take me in future. `;
 ;
@@ -41,6 +43,14 @@ export const PROJECTS = [
       "A Website to show the Prices of the Crypto currincies with 4 different currencies including USD,EUR,SAR and AED you can also see each currency performance details with the help of Google chart data , also you can search for any crypto currency and match results with the current typing ",
     technologies: ["HTML", "CSS", "React",],
     link:"https://crypto-souq.vercel.app/"
+  },
+  {
+    title: "Nader-Ecommerce",
+    image: project9 ,
+    description:
+      "An e-commerce website built with React, featuring a modern, responsive design and seamless user experience. The site includes dynamic product listings and an efficient 'Add to Cart' functionality implemented using Redux Toolkit. This functionality allows users to add, remove, and update items in their cart with real-time state management, ensuring a smooth and interactive shopping experience. Deployed on Vercel for optimal performance and scalability. ",
+    technologies: ["HTML", "Tailwind.CSS", "React","Redux-toolkit"],
+    link:"https://nader-ecommerce.vercel.app/"
   },
   {
     title: "React-Blog",
