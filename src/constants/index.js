@@ -24,6 +24,13 @@ checking and fixing Hardware issues .
 installing Operating systems and other important apps for customers `,
     technologies: [],
   },
+  {
+    year: "2024",
+    role: "Front-End Internship.",
+    company: "Mad-Solution co",
+    description: `Developed skills in writing clean and readable code, incorporating best practices and industry tips.`,
+    technologies: ["HTML","Tailwind-CSS","React"],
+  },
 ];
 
 export const Links = 
@@ -31,7 +38,7 @@ export const Links =
     github: "https://github.com/NaderQast/",
     linkedin: "https://www.linkedin.com/in/nader-al-quwatli/",
     facebook: "https://www.facebook.com/Nader.Qas/",
-    CV: "https://drive.google.com/file/d/1sBOo7wR43uKYsWYwuRasOkOAF7YTcwrt/view?usp=sharing", 
+    CV: "https://drive.google.com/file/d/1Evs1Jd0e5G7e58z4kcat_Roda-GPyTV_/view?usp=sharing", 
   }
 
 
