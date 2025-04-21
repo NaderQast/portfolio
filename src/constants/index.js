@@ -59,24 +59,6 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind.CSS", "React","Redux-toolkit"],
     link:"https://nader-ecommerce.vercel.app/"
   },
-  {
-    title: "React-Blog",
-    image: project6,
-    description:
-      "A simple react blog application with user google account authentication and CRUD operations with react Router and like/dislike button  ",
-    technologies: ["HTML", "CSS", "React.JS", "Firebase","TypeScript"],
-    link:"https://react-social-bb389.web.app/",
-  },
-
-  {
-    title: "Sa3a-Store",
-    image: project5,
-    description:
-      "Single Page e-commerce website with nice appearance and dark mode Feature ",
-    technologies: ["HTML", "Tailwind.CSS", "React.JS", ],
-    link: "https://sa3a-store-51x9.vercel.app/",
-  },
-
   
   {
     title: "Finance-Data-Page",
@@ -86,8 +68,24 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind.CSS", "React",],
     link:"https://finance-data-react.vercel.app/"
   },
+  {
+    title: "Sa3a-Store",
+    image: project5,
+    description:
+      "Single Page e-commerce website with nice appearance and dark mode Feature ",
+    technologies: ["HTML", "Tailwind.CSS", "React.JS", ],
+    link: "https://sa3a-store-51x9.vercel.app/",
+  },
 
 
+  {
+    title: "React-Blog",
+    image: project6,
+    description:
+      "A simple react blog application with user google account authentication and CRUD operations with react Router and like/dislike button  ",
+    technologies: ["HTML", "CSS", "React.JS", "Firebase","TypeScript"],
+    link:"https://react-social-bb389.web.app/",
+  },
 ];
 
 export const CONTACT = {
