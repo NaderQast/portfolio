@@ -87,7 +87,7 @@ export const PROJECTS = [
     title: "Products-NFT-Minter - Web 3.0",
     image: project11,
     description:
-      "Developed a multi-chain NFT minting dApp enabling users to mint custom NFTs on Sepolia or Scroll Sepolia testnets. Integrated network switching for seamless cross-chain deployment, with secure smart contract handling for metadata and ownership verification. Streamlined user experience via Web3.js/Ethers.js and responsive frontend. ",
+      "Developed a multi-chain NFT minting dApp enabling users to mint custom NFTs on Sepolia or Scroll Sepolia testnets. Integrated network switching for seamless cross-chain deployment, with secure smart contract handling for metadata and ownership verification. Streamlined user experience via Wagmi from Reown and responsive frontend. ",
     technologies: ["Solidity", "Foundry", "ERC-721", "IPFS", "ACL", "i18n"],
     link: "https://nft-minter-mu-six.vercel.app/",
   },
